@@ -27,6 +27,7 @@ public class GradeLevelTest {
         assertTrue(GradeLevel.isValidGradeLevel("RSL 2"));
         assertTrue(GradeLevel.isValidGradeLevel("LCM 3"));
         assertTrue(GradeLevel.isValidGradeLevel("AMEB 4"));
+        assertTrue(GradeLevel.isValidGradeLevel("AMEB 15"));
 
         // invalid grade levels
         // special character
